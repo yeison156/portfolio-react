@@ -1,0 +1,30 @@
+.contenedor-testimonio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.testimonio {
+  flex: 1 1 300px;
+  max-width: 320px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.testimonio:hover {
+  transform: translateY(-5px);
+}
+
+.imagen-testimonio {
+  width: 100%;
+  height: 200px;       /* todas las imágenes con misma altura */
+  object-fit: cover;   /* ajusta sin deformar */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,30 @@
+.contacto-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.contacto-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.contacto-modulo {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.contacto-modulo:hover {
+  transform: scale(1.05);
+}
+
+.contacto-icono {
+  margin-bottom: 10px;
+  font-size: 50px; /* Para íconos de react-icons */
+}
